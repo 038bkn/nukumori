@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'komorebi-gothic';
+    src: url('../fonts/komorebi-gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'retoromin';
+    src: url('../fonts/Bansyu-retoromin-R_ver.3.2.otf') format('opentype');
+}
+
+body {
+    background-color: #E9DAC4;
+    font-family: 'komorebi-gothic', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    /* letter-spacing: 0.1em; */
+    color: #663b10;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'retoromin', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'retoromin', sans-serif;
+}
+
+
+.items {
+    padding-inline: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.image-wrap {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item:has(.right) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* フェードイン */
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: opacity 2s, transform 2s;
+}
+.fade-in.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}

@@ -1,0 +1,43 @@
+/* 外枠 */
+html:before,
+html:after,
+body:before,
+body:after {
+  content: "";
+  background: #492909;
+  position: fixed;
+  display: block;
+  z-index: 1;
+}
+
+/* 上 */
+html:before {
+  height: 40px; 
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+/* 右 */
+html:after {
+  width: 40px;
+  height: 100vh;
+  right: 0;
+  top: 0;
+}
+
+/* 下 */
+body:before {
+  height: 40px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+/* 左 */
+body:after {
+  width: 40px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}

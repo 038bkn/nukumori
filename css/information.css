@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'komorebi-gothic';
+    src: url('../fonts/komorebi-gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'retoromin';
+    src: url('../fonts/Bansyu-retoromin-R_ver.3.2.otf') format('opentype');
+}
+
+body {
+    background-color: #E9DAC4;
+    font-family: 'komorebi-gothic', sans-serif;
+    font-size: 15px;
+    line-height: 2.3;
+    /* letter-spacing: 0.1em; */
+    color: #663b10;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'retoromin', sans-serif;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 16px auto;
+    text-align: center;
+    display: block;
+}
+
+.container ul {
+    display: inline-block;
+}
+
+.container ul li {
+    text-align: left;
+}
+
+#wrapper .btn-gnavi {
+    top: 60px;
+}
+
+/* フェードイン */
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: opacity 2s, transform 2s;
+}
+.fade-in.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
