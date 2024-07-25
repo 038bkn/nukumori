@@ -14,7 +14,7 @@
   - アクセスページ
 - `information.html`
   - お店情報ページ
--  `contact.html`
+- `contact.html`
   - お問い合わせページ
 
 [本番環境](https://38bkn.github.io/nukumori/index.html)
