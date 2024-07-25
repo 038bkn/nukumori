@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'komorebi-gothic';
+    src: url('../fonts/komorebi-gothic.ttf') format('truetype');
+}
+
+body {
+    background-color: #E9DAC4;
+    font-family: 'komorebi-gothic', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    /* letter-spacing: 0.1em; */
+    color: #663b10;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#logo {
+    width: 350px;
+}
+
+#pudding {
+    width: 90px;
+}
+
+p,
+#Navi {
+    margin-top: 70px;
+}
+
+#pudding {
+    margin-top: 40px;
+}
+
+#Navi li {
+    float: left;
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    border: 1px solid #492909;
+
+    display: block;
+    line-height: 31px;
+}
+
+#Navi li a {
+    color: #492909;
+    text-decoration: none;
+}
+
+#Navi li a:hover {
+    background-color: #d1c2ab;
+}
+
+#Navi li a:visited {
+    color: #271503;
+}
+
+#wrapper .btn-gnavi {
+    top: 5px;
+}
+
+/* フェードイン */
+.fade-in {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: opacity 2s, transform 2s;
+}
+.fade-in.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}

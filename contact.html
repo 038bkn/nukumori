@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>純喫茶ぬくもり ホームページ - Contactページ</title>
+    <link rel="stylesheet" type="text/css" href="./css/frame.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+    <link rel="stylesheet" type="text/css" href="./css/gNavi.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- ハンバーガーメニュー -->
+        <!-- 画面右上のメニューボタン -->
+        <p class="btn-gnavi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <!-- クリック後のメニューボタン -->
+        <nav id="global-navi">
+            <ul class="menu">
+                <li style="margin: 0 10px;"><a href="./index.html">Top</a></li>
+                <li style="margin: 0 10px;"><a href="./menu.html">Menu</a></li>
+                <li style="margin: 0 10px;"><a href="./access.html">Access</a></li>
+                <li style="margin: 0 10px;"><a href="./information.html">Information</a></li>
+                <li style="margin: 0 10px;"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1>Contact</h1>
+        <div class="container">
+            <div class="item fade-in">
+                <div class="text">
+                    <form id="form">
+                        <h2>お問い合わせフォーム</h2>
+                        <p>
+                            当店に関するご意見やご質問、ご要望などがございましたら、<br>
+                            ぜひお気軽にお知らせください。
+                        </p>
+                        <p>
+                            名前<br>
+                            <input type="text" name="name" size="50" required placeholder="名前を入力してください"><br>
+                            メールアドレス<br>
+                            <input type="email" size="50" required placeholder="メールアドレスを入力してください"><br>
+                            メッセージ<br>
+                        </p>
+                        <textarea name="message" rows="17" wrap="hard" style="width: 400px; resize: vertical;" placeholder="お問い合わせ内容を入力してください" required></textarea><br>
+                        <input type="submit" value="送信">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./js/components.js"></script>
+    </div>
+</body>
+
+</html>
