@@ -30,6 +30,11 @@ h1 {
     top: 60px;
 }
 
+img {
+    max-width: 30%;
+    height: auto;
+}
+
 /* フェードイン */
 .fade-in {
     opacity: 0;
