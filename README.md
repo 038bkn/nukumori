@@ -17,4 +17,4 @@
 - `contact.html`
   - お問い合わせページ
 
-[本番環境](https://38bkn.github.io/nukumori/index.html)
+[本番環境](https://038bkn.github.io/nukumori/)
