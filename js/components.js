@@ -19,8 +19,11 @@ $(function () {
     });
 
     document.getElementById('form')?.addEventListener('submit', (e) => {
+        // ページ遷移をキャンセル
         e.preventDefault()
+        // 送信完了のアラート
         alert("送信しました")
+        // フォームの中身をリセット
         document.getElementById('form').reset()
     })
 });
